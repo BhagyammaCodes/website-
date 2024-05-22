@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #000; */
+    color: #fff;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* background-color:  rgb(73, 134, 37); */
+    width:1700px;
+    
+}
+ #navbar {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 600px;
+    justify-content: space-between;
+    background-color: rgb(73, 134, 37);
+    padding: 10px 20px;
+    align-items: center;
+} 
+/* #navbar{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    left: 1000px;
+    
+} */
+
+.nav-button {
+    background-color:  rgb(73, 134, 37);
+    border: none;
+    color: #fff;
+    left: 400px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-button:hover {
+    /* background-color: #e65c00;
+     */
+     background-color:  rgb(73, 134, 37);
+}
+
+.user-icon {
+    font-size: 24px;
+}
+
+.booking-form {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.booking-form h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: wh;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.date-button {
+    background-color: rgb(73, 134, 37);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    width: 48%;
+    font-size: 16px;
+}
+
+.date-button:hover {
+    background-color: rgb(73, 134, 37);
+}
+
+.search-button {
+    background-color: rgb(73, 134, 37);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-button:hover {
+    background-color:rgb(74, 208, 74);
+}
